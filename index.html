@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Landing Page</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Arial', sans-serif;
+            background-color: #f5f5f5;
+            color: #ffffff;
+        }
+
+        header {
+            background-color: #333;
+            color: rgb(255, 255, 255);
+            text-align: center;
+            padding: 1em;
+        }
+
+        nav {
+            background-color: #444;
+            padding: 1em;
+            text-align: center;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: rgb(230, 231, 234);
+            padding: 0.5em;
+            margin: 0 1em;
+            display: inline-block;
+        }
+
+        #hero {
+            text-align: center;
+            padding: 2em;
+            background-color: #007bff;
+            color: white;
+        }
+
+        #features {
+            padding: 2em;
+            background-color: #000000;
+            text-align: center;
+        }
+
+        .feature {
+            margin: 1em;
+            padding: 1em;
+            border: 1px solid #7d19ff;
+            border-radius: 5px;
+        }
+
+        #cta {
+            text-align: center;
+            padding: 2em;
+            background-color: #1b1919;
+            color: white;
+        }
+
+        @media screen and (max-width: 600px) {
+            nav a {
+                display: block;
+                margin: 0.5em 0;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Responsive Landing Page</h1>
+</header>
+
+<nav>
+    <a href="#hero">Home</a>
+    <a href="#features">Features</a>
+    <a href="#cta">Contact</a>
+</nav>
+
+<div id="hero">
+    <h2>Welcome to Our Amazing Website</h2>
+    <p>Explore the incredible features that await you!</p>
+</div>
+
+<div id="features">
+    <h2>Features</h2>
+    <div class="feature">Responsive Design</div>
+    <div class="feature">Modern UI</div>
+    <div class="feature">Easy to Use</div>
+</div>
+
+<div id="cta">
+    <h2>Ready to Get Started?</h2>
+    <p>Sign up now and experience the difference!</p>
+    <button>Sign Up</button>
+</div>
+
+</body>
+</html>
+
